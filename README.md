@@ -99,6 +99,7 @@ Data is extracted from the following sources:
 The extraction process uses SSIS File Connection Managers and Flat File Source components to read data from CSV files.
 
 ![Extraction Process](images/extraction_process.png)
+
 *Figure 3: Extraction process in the SSIS package.*
 
 ### Transformations and Data Cleansing
@@ -130,6 +131,7 @@ The following transformations and data cleansing are performed during the ETL pr
 * Removing flights with unreasonable times
 
 ![Transformation Process](images/transformation_process.png)
+
 *Figure 4: Example of transformations in the SSIS package.*
 
 ### Loading
